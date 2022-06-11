@@ -130,7 +130,8 @@
 
 .race__container {
   position: relative;
-  width: 981px;
+  max-width: 1000px;
+  width: 100%;
   margin: 0 auto;
   opacity: 0;
 }
@@ -173,16 +174,17 @@
   justify-content: center;
   border-bottom: 1px solid grey;
   border-top: 1px solid grey;
-  margin-bottom: 20px;
+  margin: 0 auto 20px;
   overflow: hidden;
   padding-top: 30px;
   padding-bottom: 30px;
+  max-width: 1000px;
 }
 
 .stat {
   text-align: center;
   position: relative;
-  padding: 50px;
+  width: 30%;
 }
 
 .stat__name {
