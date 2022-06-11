@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Animation</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+<main class="animation">
+  <section class="animation__section">
+    <p class="animation__title">
+      Toggle Slider Checkbox
+    </p>
+    <div class="toggle">
+      <input class="toggle__checkbox" type="checkbox" id="toggle-slider">
+      <label class="toggle__label" for="toggle-slider">
+        On/Off
+      </label>
+    </div>  
+  </section>
+  <section class="animation__section">
+    <p class="animation__title">
+      Loader
+    </p>
+    <div class="loader">
+      <svg class="loader__svg">
+        <circle cx="75" cy="75" r="20"></circle>
+        <circle cx="75" cy="75" r="35"></circle>
+        <circle cx="75" cy="75" r="50"></circle>
+        <circle cx="75" cy="75" r="65"></circle>
+      </svg>
+    </div>  
+  </section>
+  <section class="animation__section">
+    <p class="animation__title">
+      Anime.js
+    </p>
+    <div class="circles">
+        <div class="circle circle--first"></div>
+        <div class="circle circle--second"></div>
+        <div class="circle circle--third"></div>
+        <div class="circle circle--fourth"></div>
+    </div>  
+  </section>
+  <section class="animation__section">
+    <p class="animation__title">
+      Anime.js
+    </p>
+    <div class="race">
+      <div class="stats">
+        <div class="stat stat-car1">
+          <div class="stat__name">AS</div>
+          <h3>Adam Smith</h3>
+        </div>
+        <div class="stat stat-car2">
+          <div class="stat__name">BD</div>
+          <h3>Bob Dilan</h3>
+        </div>
+        <div class="stat stat-car3">
+          <div class="stat__name">CM</div>
+          <h3>Cris Miller</h3>
+        </div>
+      </div>
+      <div class="race__container">
+        <div class="cars">
+          <div class="car car--1">AS</div>
+          <div class="car car--2">BD</div>
+          <div class="car car--3">CM</div>
+        </div>
+        <div class="race__circuit">
+          <svg class="race__svg"width="1410" height="383" viewBox="0 0 1410 383" fill="none" xmlns="http://www.w3.org/2000/svg"> 
+            <g >
+              <path id="circuit" d="M373.073 350.144C338.073 350.944 302.973 351.144 267.873 351.244C248.773 351.244 229.573 352.244 210.373 350.944C195.573 349.944 180.873 348.044 166.573 344.244C143.773 338.244 121.573 329.444 99.0727 321.744C89.9727 318.744 81.0727 314.144 71.9727 312.144C68.0727 311.244 63.2727 311.244 59.8727 313.244C54.5727 316.544 49.5727 322.144 45.8727 327.744C41.9727 333.744 41.0727 342.744 36.8727 347.744C33.8727 351.544 28.0727 354.244 23.7727 354.244C19.5727 354.144 14.3727 350.944 10.8727 347.744C7.37272 344.444 4.37272 339.544 2.77272 334.744C1.27272 330.244 0.572721 324.744 1.27272 319.944C2.37272 312.244 4.87272 304.544 7.97272 297.444C16.5727 278.144 30.2727 272.744 40.5727 254.544C43.8727 248.244 48.3727 242.944 52.9727 237.744C63.3727 226.144 73.7727 214.444 85.2727 204.244C110.273 182.244 136.073 160.744 162.573 141.744C164.973 139.744 168.973 139.744 171.773 140.744C180.273 144.244 187.773 153.144 196.373 155.744C201.873 157.444 208.873 156.544 214.373 153.944C238.573 142.244 262.873 128.744 285.073 113.244C298.273 103.944 307.873 89.1437 320.573 79.1437C327.973 73.2437 336.573 68.7437 345.573 65.7437C355.973 62.1437 367.573 58.7437 378.573 59.7437C405.573 62.0437 432.573 70.0437 459.573 75.7437C471.973 78.4437 496.573 83.5437 508.873 84.9437C513.373 85.4437 518.373 83.9437 522.273 81.7437C526.073 79.2437 529.973 75.2437 531.873 71.1437C533.773 66.7437 533.573 60.9437 533.573 55.7437C533.573 50.7437 534.773 45.1437 536.073 40.4437C538.273 32.5437 542.873 23.9437 548.373 18.0437C553.573 12.5437 561.073 8.44371 568.373 6.24371C579.873 2.74371 579.873 1.5437 591.873 1.0437C601.773 0.743705 607.573 2.04371 617.573 3.24371C654.073 8.14371 690.873 12.7437 727.073 19.1437C744.273 22.2437 760.973 27.7437 777.773 32.2437C791.573 35.7437 805.573 38.5437 819.073 43.4437C841.073 51.2437 862.973 60.0437 884.073 70.4437C907.773 81.9437 930.273 96.2437 953.373 109.044C961.573 113.744 970.573 117.444 978.273 122.744C981.573 124.944 985.873 127.744 987.073 131.444C988.573 135.244 986.273 140.444 986.073 144.944C985.773 150.744 984.773 156.744 985.573 162.244C986.573 167.244 988.573 172.744 991.573 176.544C996.373 182.744 1002.87 188.144 1009.37 192.544C1025.57 203.744 1042.27 214.244 1059.57 223.244C1092.37 240.244 1125.97 256.044 1159.87 270.544C1182.07 279.944 1204.97 288.044 1227.97 295.144C1239.07 298.444 1250.57 299.944 1262.07 301.744C1277.07 303.944 1292.37 306.244 1307.57 307.044C1325.77 307.944 1343.97 307.044 1362.07 306.544C1373.57 306.244 1385.07 304.744 1396.57 304.744C1399.77 304.744 1404.07 304.244 1405.87 306.444C1407.97 309.044 1407.97 314.744 1408.07 318.744C1408.27 321.244 1408.07 324.544 1406.77 326.244C1404.37 329.444 1400.57 332.544 1396.97 333.444C1388.37 335.544 1378.87 336.044 1369.97 335.444C1364.07 335.144 1358.57 331.444 1352.57 330.744C1341.97 329.144 1331.07 328.144 1320.57 328.744C1313.87 328.944 1307.37 331.444 1300.87 333.144C1282.27 338.244 1263.97 344.944 1245.27 349.244C1209.57 357.444 1171.87 360.444 1135.87 367.044C1112.27 371.244 1088.57 375.044 1064.77 378.244C1053.57 379.744 1042.07 381.044 1030.77 381.244C987.573 382.244 943.273 379.744 899.973 380.244C822.573 381.144 744.573 381.044 667.073 381.244C630.973 381.544 593.573 375.944 557.973 373.544C554.773 373.244 552.073 369.744 550.573 366.744C547.973 362.444 548.073 355.744 545.573 351.744C543.873 349.044 540.573 346.744 537.573 346.244C530.073 344.944 521.773 345.744 513.773 345.944C491.073 346.144 468.573 346.544 445.973 347.244C421.573 347.944 397.373 349.744 373.073 350.144Z" stroke="black" stroke-width="2"/>
+            </g>
+            <g id="finish">
+              <path d="M282.573 327.244H262.573V378.444H282.573V327.244Z" fill="black" stroke="#F2F2F2" stroke-width="3.5"/>
+              <path d="M270.073 329.744H264.873V334.944H270.073V329.744Z" fill="#F2F2F2"/>
+              <path d="M275.273 334.744H270.073V339.944H275.273V334.744Z" fill="#F2F2F2"/>
+              <path d="M280.473 329.744H275.273V334.944H280.473V329.744Z" fill="#F2F2F2"/>
+              <path d="M270.073 340.044H264.873V345.244H270.073V340.044Z" fill="#F2F2F2"/>
+              <path d="M275.273 345.244H270.073V350.444H275.273V345.244Z" fill="#F2F2F2"/>
+              <path d="M280.473 340.044H275.273V345.244H280.473V340.044Z" fill="#F2F2F2"/>
+              <path d="M270.073 350.444H264.873V355.644H270.073V350.444Z" fill="#F2F2F2"/>
+              <path d="M275.273 355.744H270.073V360.944H275.273V355.744Z" fill="#F2F2F2"/>
+              <path d="M280.473 350.444H275.273V355.644H280.473V350.444Z" fill="#F2F2F2"/>
+              <path d="M270.073 360.744H264.873V365.944H270.073V360.744Z" fill="#F2F2F2"/>
+              <path d="M275.273 366.044H270.073V371.244H275.273V366.044Z" fill="#F2F2F2"/>
+              <path d="M280.473 360.744H275.273V365.944H280.473V360.744Z" fill="#F2F2F2"/>
+              <path d="M270.073 371.244H264.873V376.444H270.073V371.244Z" fill="#F2F2F2"/>
+              <path d="M280.473 371.244H275.273V376.444H280.473V371.244Z" fill="#F2F2F2"/>
+            </g>
+          </svg>
+        
+        
+        </div>
+      </div>
+    </div>
+  </section>
+    
+</main>
+
+  <script src="index.js"></script>
+  <script src="anime.min.js"></script>
+  <script>
+    anime ({
+      targets: ".circle",
+      translateX: anime.stagger(50),
+      delay: anime.stagger(500, {from:'last'}),
+      duration: 3000,
+      loop: true
+    })
+
+    let path = anime.path("#circuit");
+    let results = ["6000", "8000", "11000"];
+    let receTimeLine = anime.timeline();
+
+
+    receTimeLine
+      .add({
+        targets: ".stat-car1",
+        translateY: [-1000, 0],
+        opacity: [0, 1],
+        duration: 1000,
+        delay: 2000,
+      })
+
+      .add({
+        targets: ".stat-car2",
+        translateY: [-1000, 0],
+        opacity: [0, 1],
+        duration: 1000,
+      })
+
+      .add({
+        targets: ".stat-car3",
+        translateY: [-1000, 0],
+        opacity: [0, 1],
+        duration: 1000,
+      })
+
+      .add({
+        targets: ".race__container",
+        opacity: [0, 1],
+        duration: 1000,
+      })
+
+      .add({
+        targets: ".car",
+        translateX: path("x"),
+        translateY: path("y"),
+        rotate: path("angle"),
+        
+        duration: function(el, i) {
+          return results[i]
+        },
+        easing: "linear",
+        // delay: 1000,
+        complete: function() {
+          let winnerTimeLine = anime.timeline();
+            winnerTimeLine
+              .add({
+                targets: ".race__container",
+                opacity: [1, 0],
+                duration: 1000,
+              })
+
+              .add({
+                targets: ".stat-car3",
+                translateX: "+=1000",
+                duration: 1000,
+                delay: 500
+              })
+
+              .add({
+                targets: ".stat-car2",
+                translateX: "+=1000",
+                duration: 1000,
+                delay: 500
+              })
+
+              .add({
+                targets: ".stat-car1",
+                left: "15%",
+                duration: 2000,
+                complete: function() {
+                  document.querySelector(".stat-car1").classList.add("winner");
+                }
+              });
+        }
+      });
+
+  </script>
+</body>
