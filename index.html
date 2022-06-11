@@ -159,7 +159,6 @@
           return results[i]
         },
         easing: "linear",
-        // delay: 1000,
         complete: function() {
           let winnerTimeLine = anime.timeline();
             winnerTimeLine
@@ -172,20 +171,21 @@
               .add({
                 targets: ".stat-car3",
                 translateX: "+=1000",
-                duration: 500,
+                duration: 1000,
                 delay: 500
               })
 
               .add({
                 targets: ".stat-car2",
                 translateX: "+=1000",
-                duration: 500,
+                duration: 1000,
                 delay: 500
               })
 
               .add({
                 targets: ".stat-car1",
-                left: "15%",
+                translateX: "-50%",
+                left: "50%",
                 duration: 2000,
                 complete: function() {
                   document.querySelector(".stat-car1").classList.add("winner");
@@ -193,5 +193,7 @@
               });
         }
       });
+
   </script>
 </body>
+
