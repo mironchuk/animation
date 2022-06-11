@@ -116,7 +116,7 @@
     })
 
     let path = anime.path("#circuit");
-    let results = ["6000", "8000", "11000"];
+    let results = ["6000", "7000", "7500"];
     let receTimeLine = anime.timeline();
 
 
@@ -166,20 +166,20 @@
               .add({
                 targets: ".race__container",
                 opacity: [1, 0],
-                duration: 1000,
+                duration: 500,
               })
 
               .add({
                 targets: ".stat-car3",
                 translateX: "+=1000",
-                duration: 1000,
+                duration: 500,
                 delay: 500
               })
 
               .add({
                 targets: ".stat-car2",
                 translateX: "+=1000",
-                duration: 1000,
+                duration: 500,
                 delay: 500
               })
 
@@ -193,6 +193,5 @@
               });
         }
       });
-
   </script>
 </body>
